@@ -1,0 +1,32 @@
+.modal {
+  height: 300px;
+  width: 33%;
+  background:rgb(223, 247, 248);
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 33%;
+  margin-top: 180px;  
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 2px ;
+}
+
+.button {
+  margin-top: 10px;
+  height: 30px;
+  background: rgb(0, 139, 116);
+  color: #fff;
+  border: none;
+}
+
+.button:hover {
+  background: rgb(1, 110, 92);
+}
